@@ -1,6 +1,6 @@
 # YRS 2012 - website for Cloud Foundry
 
-This is trivial app serving static content using the Sinatra framework in Ruby.
+This is a trivial app serving static content using the Sinatra framework in Ruby. It is being used to provide basic information for the [Young Rewired State](http://youngrewiredstate.org) event and is [online](http://yrs2012.cloudfoundry.com) for reference.
 
 ## Overview
 
@@ -9,6 +9,7 @@ This simple app uses:
 - Ruby
 - [Sinatra](http://www.sinatrarb.com/)
 - [Twitter Bootstrap](http://twitter.github.com) for visual sugar
+- [Font Awesome](http://fortawesome.github.com/Font-Awesome) for nice iconography
 
 ## Deployment
 
