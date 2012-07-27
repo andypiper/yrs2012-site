@@ -1,0 +1,12 @@
+/* added styles for CF */
+
+body {
+  position: relative;
+  background-color: #fff;
+  background-image: url(../img/cloud-squares.png);
+  background-repeat: repeat-x repeat-y;
+  background-position: 0 40px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-family: 'Proxima Nova', sans-serif;
+}

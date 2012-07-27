@@ -1,0 +1,20 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Developer: Andy Piper
+  Site: http://andypiper.co.uk/
+  Twitter: @andypiper
+  Location: UK
+
+/* THANKS */
+  Site: http://youngrewiredstate.org.uk/
+
+/* SITE */
+  Last update: 2012/07/27
+  Language: English
+  Doctype: HTML5
+  IDE: Sublime Text
+  Standards: HTML5, CSS3
+  Components: Twitter Bootstrap, Sinatra
+  Software:
