@@ -15,10 +15,13 @@ configure do
   # if using mime types not known to Sinatra, uncomment and
   # configure here (by file extension)
   # mime_type :foo, 'text/foo'
+
+  # this is going into production
+  set :environment, :production
 end
 
 
-# serve the files!
+# serve all the files!
 
 # route to starting page (index.html)
 get "/" do
