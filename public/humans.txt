@@ -9,11 +9,12 @@
 
 /* THANKS */
   Site: http://youngrewiredstate.org/
+  Icons: http://icondock.com/free/vector-social-media-icons
 
 /* SITE */
-  Last update: 2012/07/27
+  Last update: 2012/08/01
   Language: English
   Doctype: HTML5
   IDE: Sublime Text
   Standards: HTML5, CSS3
-  Components: Twitter Bootstrap, Sinatra, Font Awesome
+  Components: Twitter Bootstrap, Sinatra, Font Awesome, Gravatar

@@ -62,7 +62,7 @@
               <li>a <a href="http://cloudfoundry.com/micro">micro-cloud</a> that you can run on your own system</li>
               <li>an <a href="http://cloudfoundry.org">Open Source project</a> that can be used to build large-scale cloud platforms.</li>
             </ul>
-            <p>Apps can be written in Java (Spring, Groovy, Grails), Node.js, or Ruby (Rails, Sinatra) - and use services like MongoDB, Redis, MySQL, Postgres, and RabbitMQ.</p>
+            <p>Apps can be written using a variety of frameworks in <a href="#" rel="popover" title="Java" data-content="Spring, Groovy, Grails, Scala, Play">Java</a>, <a href="#" rel="popover" title="Node.js" data-content="Express, etc">Node.js</a>, or <a href="#" rel="popover" title="Ruby" data-content="Rails, Sinatra, etc">Ruby</a> - and use services like MongoDB, Redis, MySQL, Postgres, and RabbitMQ.</p>
             <p>Go forth and build great code!</p>
           </div>
         <div class="span4">
@@ -115,11 +115,13 @@
 
       <!-- some nice words -->
       <div class="row-fluid">
-        <div class="span6">
+        <div class="span1"><img src="http://www.gravatar.com/avatar/78d9e84299978ff9266bcbe46020fcce?s=120" alt="Peter" /></div>
+        <div class="span5">
           <blockquote><p>The YRS participants are the future of our industry and we feel privileged to be involved in this event. Good luck to everyone involved and let's code!</p> <small><cite>Peter Ledbrook</cite>, Developer Advocate <a href="http://twitter.com/pledbrook"><i class="icon-twitter icon-large"></i></a></small>
           </blockquote>
         </div>
-        <div class="span6">
+        <div class="span1"><img src="http://www.gravatar.com/avatar/3dcd9d46f86d95331b5197b9d41c6153?s=120" alt="Andy" /></div>
+        <div class="span5">
           <blockquote>
             <p>I'm excited to have the chance to support Young Rewired State this year. Learning to code is a useful skill, and working with YRS and open data we have the chance to do social good, too.</p> <small><cite>Andy Piper</cite>, Developer Advocate <a href="http://twitter.com/andypiper"><i class="icon-twitter icon-large"></i></a></small>
           </blockquote>
@@ -127,10 +129,19 @@
       </div>
 
       <div class="page-header">
-        <h2>Follow us online <small>be social</small></h2>
+        <h2>Follow us online <small>be social, talk to us, learn</small></h2>
       </div>
 
-      <!-- TODO add links to Twitter FB G+ YouTube IRC StackOverflow etc -->
+      <!-- links to Twitter FB G+ YouTube IRC StackOverflow etc -->
+
+      <div class="row-fluid">
+        <div class="span1"><a href="http://twitter.com/cloudfoundry"><img src="img/twitter.png" class="center" alt="Twitter" title="@cloudfoundry" /></a></div>
+        <div class="span1"><a href="http://facebook.com/cloudfoundry"><img src="img/facebook.png" class="center" alt="Facebook" title="Cloud Foundry on Facebook" /></a></div>
+        <div class="span1"><a href="https://plus.google.com/114245065906861739918"><img src="img/google-plus.png" class="center" alt="Google+" title="Cloud Foundry on Google+" /></a></div>
+        <div class="span1"><a href="http://github.com/cloudfoundry"><img src="img/github.png" class="center" alt="Github" title="Code on Github" /></a></div>
+        <div class="span1"><a href="http://stackoverflow.com/questions/tagged/cloudfoundry"><img src="img/stackoverflow.png" class="center" alt="Stack Overflow" title="Support on Stack Overflow" /></a></div>
+        <div class="span1"><a href="http://youtube.com/cloudfoundry"><img src="img/youtube.png" class="center" alt="YouTube" title="Videos on YouTube" /></a></div>
+      </div>
 
       <hr>
 
@@ -157,6 +168,10 @@
     <script src="./js/bootstrap-collapse.js"></script>
     <script src="./js/bootstrap-carousel.js"></script>
     <script src="./js/bootstrap-typeahead.js"></script>
+
+<script>
+  $("a[rel=popover]").popover({placement: 'bottom'});
+</script>
 
   </body>
 </html>
