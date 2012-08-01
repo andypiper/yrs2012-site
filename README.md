@@ -13,15 +13,17 @@ This simple app uses:
 - [Gravatar](http://gravatar.com) for avatar icons
 - [IconDock Vector Social Media Icons](http://icondock.com/free/vector-social-media-icons)
 
+I'm also a fan of the [humans.txt](http://humanstxt.org) initiative so I've thrown that in for good measure...
+
 ## Deployment
 
 What are all these files?
 
-Nothing, really. No, really. Everything in the ``public`` folder is there as a placeholder. All you need to get going is the web.rb file, and optionally the Gemfile. Put your own static web content (with an index.html file, and maybe a 404.html file) in the ``public`` folder, and either:
+Nothing, really. No, really. Everything in the ``public`` folder is there to be served as static content. All you need to get going is the ``web.rb`` file, and optionally the Gemfile. Put your own static web content (with an index.html file, and maybe a 404.html file) in the ``public`` folder, and either:
 
  * run ``ruby web.rb`` from the root directory; or
- * deploy to Cloud Foundry as a Sinatra application
+ * deploy to Cloud Foundry as a Sinatra application (it should be autodetected)
 
- … and you are good to go.
+ ... and you are good to go.
 
-Optionally, fiddle with the settings in the top of the web.rb file to tweak how things work.
+Optionally, fiddle with the settings in the top of the ``web.rb`` file to tweak how things work.
