@@ -10,6 +10,8 @@ This simple app uses:
 - [Sinatra](http://www.sinatrarb.com/)
 - [Twitter Bootstrap](http://twitter.github.com) for visual sugar
 - [Font Awesome](http://fortawesome.github.com/Font-Awesome) for nice iconography
+- [Gravatar](http://gravatar.com) for avatar icons
+- [IconDock Vector Social Media Icons](http://icondock.com/free/vector-social-media-icons)
 
 ## Deployment
 
