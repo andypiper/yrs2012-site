@@ -10,6 +10,7 @@
 /* THANKS */
   Site: http://youngrewiredstate.org/
   Icons: http://icondock.com/free/vector-social-media-icons
+  Ribbon: https://github.com/jamesflorentino/fork-ribbons
 
 /* SITE */
   Last update: 2012/08/01

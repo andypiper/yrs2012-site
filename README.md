@@ -12,6 +12,7 @@ This simple app uses:
 - [Font Awesome](http://fortawesome.github.com/Font-Awesome) for nice iconography
 - [Gravatar](http://gravatar.com) for avatar icons
 - [IconDock Vector Social Media Icons](http://icondock.com/free/vector-social-media-icons)
+- [Github Ribbon](https://github.com/jamesflorentino/fork-ribbons)
 
 I'm also a fan of the [humans.txt](http://humanstxt.org) initiative so I've thrown that in for good measure...
 
