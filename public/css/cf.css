@@ -22,3 +22,12 @@ img.center {
 .page-header {
   padding-top: 30px;
 }
+
+span[frown] {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  display:inline-block;
+  color: #bbb;
+  text-shadow: 1px 1px 4px #aaa
+}
